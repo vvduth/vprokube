@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: db-pv-claim
-  label:
+  labels:
     app: vprodb
 spec:
   accessModes:
